@@ -48,19 +48,7 @@ export default function Hero() {
             </div>
             
             <div className="flex items-center gap-6 pt-4">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="w-10 h-10 rounded-full border-2 border-background overflow-hidden">
-                    <Image 
-                      src={`https://randomuser.me/api/portraits/${i % 2 === 0 ? 'women' : 'men'}/${i + 30}.jpg`}
-                      alt={`Client ${i}`}
-                      width={40}
-                      height={40}
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
-              </div>
+             
               <div>
                 <div className="font-bold text-accent">100+ Happy Clients</div>
                 <div className="text-sm text-muted-foreground">Join our success stories</div>
