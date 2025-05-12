@@ -49,8 +49,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-xl mb-2">Call Us</h3>
-                <p className="text-white">(555) 123-4567</p>
-                <p className="text-sm text-white">Mon-Fri: 6am-9pm, Sat-Sun: 8am-7pm</p>
+                <p className="text-white font-bold">(555) 123-4567</p>
+                <p className="text-sm text-white font-bold">Mon-Fri: 6am-9pm, Sat-Sun: 8am-7pm</p>
               </div>
             </div>
             
@@ -60,8 +60,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-xl mb-2">Email Us</h3>
-                <p className="text-white">info@corefit.example.com</p>
-                <p className="text-sm text-white">We'll respond within 24 hours</p>
+                <p className="text-white font-bold">info@corefit.example.com</p>
+                <p className="text-sm text-white font-bold">We'll respond within 24 hours</p>
               </div>
             </div>
             
@@ -71,8 +71,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-xl mb-2">Visit Us</h3>
-                <p className="text-white">123 Fitness Street</p>
-                <p className="text-white">Kannur, Kerala 670141</p>
+                <p className="text-white font-bold">123 Fitness Street</p>
+                <p className="text-white font-bold">Kannur, Kerala 670141</p>
               </div>
             </div>
             
